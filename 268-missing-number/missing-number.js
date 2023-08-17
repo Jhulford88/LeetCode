@@ -8,7 +8,7 @@ var missingNumber = function(nums) {
     while (n > -1) {
         range.push(n), n--;
     }
-    console.log('range............', range)
+    // console.log('range............', range)
     // let rangeTotal = range.reduce((acc, val) => {
     //     return acc + val
     // })
