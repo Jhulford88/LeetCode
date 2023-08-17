@@ -4,10 +4,10 @@
  */
 var missingNumber = function(nums) {
     let n = nums.length;
-    let range = [...Array(n+1).keys()]
-    // while (n > -1) {
-    //     range.push(n), n--;
-    // }
+    let range = []
+    while (n > -1) {
+        range.push(n), n--;
+    }
     console.log('range............', range)
     // let rangeTotal = range.reduce((acc, val) => {
     //     return acc + val
