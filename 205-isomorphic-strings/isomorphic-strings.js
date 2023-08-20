@@ -4,7 +4,6 @@
  * @return {boolean}
  */
 var isIsomorphic = function(s, t) {
-    if (s.length !== t.length) return false;
 
     let map1 = {};
     let map2 = {};
